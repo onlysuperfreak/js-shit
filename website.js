@@ -2,7 +2,7 @@ let button = document.querySelector(".button");
 let buttonText = document.querySelector(".button p");
 let thankText = document.querySelector(".button p:last-child");
 
-let timeLine = TimelineMax({
+let timeLine = new TimelineMax({
     paused: false
 });
 
